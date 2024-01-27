@@ -1,9 +1,9 @@
 [{
     "timestamp": "2024-01-27T14:33:00Z",
-    "hours slept": 5,
+    "hours_slept": 5,
     "last shift": {
         "start_timestamp": "2024-01-25T09:00:00Z",
-        "end_timestamp": 2023-01-25T17:00:00Z},
+        "end_timestamp": "2023-01-25T17:00:00Z"},
     "daily_energy_level": "tired",
     "sleep_quality": false,
     "physical_symptoms": ["headache", "muscle_ache"],
@@ -295,7 +295,7 @@
     "reaction_time_success_rate": 97,
     "reaction_time": 210,
     "suggestion": "good_to_go"
-
+  },
     {
         "timestamp": "2024-04-07T12:00:00Z",
         "hours_slept": 4,
@@ -343,5 +343,5 @@
         "suggestion": "do_not_drive"
     }
     
-  }]
+  ]
  
