@@ -1,301 +1,148 @@
-[{
-    "timestamp": "2024-01-27T14:33:00Z",
-    "hours slept": 5,
-    "last shift": {
-        "start_timestamp": "2024-01-25T09:00:00Z",
-        "end_timestamp": 2023-01-25T17:00:00Z},
-    "daily_energy_level": "tired",
-    "sleep_quality": false,
-    "physical_symptoms": ["headache", "muscle_ache"],
-    "mood": ["anxious", "sensitive", "indifferent"],
-    "input_text": "I am sleepy",
-    "game_success_rate": 80,
-    "rating": "be_careful"},
-  {
-    "timestamp": "2024-02-10T19:45:00Z",
-    "hours_slept": 7,
-    "last_shift": {
-      "start_timestamp": "2024-02-09T08:30:00Z",
-      "end_timestamp": "2024-02-09T17:30:00Z"
+[
+    {
+        "timestamp": "2024-03-11T21:30:00Z",
+        "hours_slept": 8,
+        "last_shift": {
+            "start_timestamp": "2024-03-10T07:00:00Z",
+            "end_timestamp": "2024-03-10T16:00:00Z"
+        },
+        "daily_energy_level": "fully_energized",
+        "sleep_quality": true,
+        "physical_symptoms": ["none"],
+        "mood": ["happy", "grateful", "motivated"],
+        "input_text": "Had a great night's sleep, feeling fantastic!",
+        "reaction_time_success_rate": 96,
+        "reaction_time": 220,
+        "suggestion": "good_to_go"
     },
-    "daily_energy_level": "energetic",
-    "sleep_quality": true,
-    "physical_symptoms": ["none"],
-    "input_text": "Feeling great and ready to drive!",
-    "reaction_time_success_rate": 95,
-    "reaction_time": 250,
-    "suggestion": "good_to_go"
-  },
-  {
-    "timestamp": "2024-02-12T08:00:00Z",
-    "hours_slept": 6,
-    "last_shift": {
-      "start_timestamp": "2024-02-11T12:00:00Z",
-      "end_timestamp": "2024-02-11T20:00:00Z"
+    {
+        "timestamp": "2024-03-14T12:00:00Z",
+        "hours_slept": 5,
+        "last_shift": {
+            "start_timestamp": "2024-03-13T09:30:00Z",
+            "end_timestamp": "2024-03-13T18:30:00Z"
+        },
+        "daily_energy_level": "tired",
+        "sleep_quality": false,
+        "physical_symptoms": ["gastro", "muscle_ache"],
+        "mood": ["happy", "excited", "unmotivated"],
+        "input_text": "Feeling tired, a bit sore, and a bit queasy. Need to drive to a family event.",
+        "reaction_time_success_rate": 78,
+        "reaction_time": 360,
+        "suggestion": "be_careful"
     },
-    "daily_energy_level": "tired",
-    "sleep_quality": false,
-    "physical_symptoms": ["headache", "muscle_ache"],
-    "input_text": "Feeling tired and a bit sore, but need to drive to an early meeting.",
-    "reaction_time_success_rate": 75,
-    "reaction_time": 350,
-    "suggestion": "be_careful"
-  },
-  {
-    "timestamp": "2024-02-15T22:30:00Z",
-    "hours_slept": 8,
-    "last_shift": {
-      "start_timestamp": "2024-02-14T07:00:00Z",
-      "end_timestamp": "2024-02-14T16:00:00Z"
+    {
+        "timestamp": "2024-03-17T06:30:00Z",
+        "hours_slept": 7,
+        "last_shift": {
+            "start_timestamp": "2024-03-16T15:00:00Z",
+            "end_timestamp": "2024-03-16T23:00:00Z"
+        },
+        "daily_energy_level": "energetic",
+        "sleep_quality": true,
+        "physical_symptoms": ["none"],
+        "mood": ["happy", "confident", "motivated"],
+        "input_text": "Feeling energetic and ready for a morning drive!",
+        "reaction_time_success_rate": 94,
+        "reaction_time": 230,
+        "suggestion": "good_to_go"
     },
-    "daily_energy_level": "fully_energized",
-    "sleep_quality": true,
-    "physical_symptoms": ["none"],
-    "input_text": "Had a good night's sleep and feeling fantastic!",
-    "reaction_time_success_rate": 98,
-    "reaction_time": 200,
-    "suggestion": "good_to_go"
-  },
-  {
-    "timestamp": "2024-02-18T12:15:00Z",
-    "hours_slept": 5,
-    "last_shift": {
-      "start_timestamp": "2024-02-17T09:30:00Z",
-      "end_timestamp": "2024-02-17T18:30:00Z"
+    {
+        "timestamp": "2024-03-20T16:45:00Z",
+        "hours_slept": 8,
+        "last_shift": {
+            "start_timestamp": "2024-03-19T10:00:00Z",
+            "end_timestamp": "2024-03-19T18:00:00Z"
+        },
+        "daily_energy_level": "ok",
+        "sleep_quality": false,
+        "physical_symptoms": ["none"],
+        "mood": ["happy", "confident", "productive"],
+        "input_text": "Feeling alright but a bit tired. Need to pick up groceries.",
+        "reaction_time_success_rate": 85,
+        "reaction_time": 310,
+        "suggestion": "be_careful"
     },
-    "daily_energy_level": "ok",
-    "sleep_quality": false,
-    "physical_symptoms": ["gastro"],
-    "input_text": "Feeling alright, but a bit queasy after lunch.",
-    "reaction_time_success_rate": 85,
-    "reaction_time": 300,
-    "suggestion": "be_careful"
-  },
-  {
-    "timestamp": "2024-02-21T06:00:00Z",
-    "hours_slept": 6,
-    "last_shift": {
-      "start_timestamp": "2024-02-20T15:00:00Z",
-      "end_timestamp": "2024-02-20T23:00:00Z"
+    {
+        "timestamp": "2024-03-23T21:00:00Z",
+        "hours_slept": 6,
+        "last_shift": {
+            "start_timestamp": "2024-03-22T08:00:00Z",
+            "end_timestamp": "2024-03-22T17:00:00Z"
+        },
+        "daily_energy_level": "fully_energized",
+        "sleep_quality": true,
+        "physical_symptoms": ["none"],
+        "mood": ["happy", "calm", "focused"],
+        "input_text": "Had a great night's sleep, feeling refreshed!",
+        "reaction_time_success_rate": 98,
+        "reaction_time": 200,
+        "suggestion": "good_to_go"
     },
-    "daily_energy_level": "tired",
-    "sleep_quality": true,
-    "physical_symptoms": ["none"],
-    "input_text": "Feeling tired but had a good night's sleep. Ready to drive.",
-    "reaction_time_success_rate": 90,
-    "reaction_time": 280,
-    "suggestion": "be_careful"
-  },
-  {
-    "timestamp": "2024-02-24T16:45:00Z",
-    "hours_slept": 7,
-    "last_shift": {
-      "start_timestamp": "2024-02-23T10:00:00Z",
-      "end_timestamp": "2024-02-23T18:00:00Z"
+    {
+        "timestamp": "2024-03-26T11:30:00Z",
+        "hours_slept": 5,
+        "last_shift": {
+            "start_timestamp": "2024-03-25T13:00:00Z",
+            "end_timestamp": "2024-03-25T21:00:00Z"
+        },
+        "daily_energy_level": "tired",
+        "sleep_quality": false,
+        "physical_symptoms": ["headache"],
+        "mood": ["indifferent"],
+        "input_text": "Woke up with a headache and feeling a bit groggy.",
+        "reaction_time_success_rate": 70,
+        "reaction_time": 380,
+        "suggestion": "be_careful"
     },
-    "daily_energy_level": "ok",
-    "sleep_quality": false,
-    "physical_symptoms": ["muscle_ache"],
-    "input_text": "Feeling a bit sore from yesterday's workout, but need to run errands.",
-    "reaction_time_success_rate": 80,
-    "reaction_time": 320,
-    "suggestion": "be_careful"
-  },
-  {
-    "timestamp": "2024-02-27T21:00:00Z",
-    "hours_slept": 8,
-    "last_shift": {
-      "start_timestamp": "2024-02-26T08:00:00Z",
-      "end_timestamp": "2024-02-26T17:00:00Z"
+    {
+        "timestamp": "2024-03-29T17:15:00Z",
+        "hours_slept": 7,
+        "last_shift": {
+            "start_timestamp": "2024-03-28T09:30:00Z",
+            "end_timestamp": "2024-03-28T18:30:00Z"
+        },
+        "daily_energy_level": "energetic",
+        "sleep_quality": true,
+        "physical_symptoms": ["none"],
+        "mood": ["happy", "confident", "motivated"],
+        "input_text": "Feeling great after a good night's sleep. Ready to drive!",
+        "reaction_time_success_rate": 92,
+        "reaction_time": 240,
+        "suggestion": "good_to_go"
     },
-    "daily_energy_level": "fully_energized",
-    "sleep_quality": true,
-    "physical_symptoms": ["none"],
-    "input_text": "Had a great night's sleep, feeling refreshed!",
-    "reaction_time_success_rate": 97,
-    "reaction_time": 210,
-    "suggestion": "good_to_go"
-  },
-  {
-    "timestamp": "2024-03-02T11:30:00Z",
-    "hours_slept": 5,
-    "last_shift": {
-      "start_timestamp": "2024-03-01T13:00:00Z",
-      "end_timestamp": "2024-03-01T21:00:00Z"
+    {
+        "timestamp": "2024-04-01T08:45:00Z",
+        "hours_slept": 6,
+        "last_shift": {
+            "start_timestamp": "2024-03-31T12:00:00Z",
+            "end_timestamp": "2024-03-31T20:00:00Z"
+        },
+        "daily_energy_level": "exhausted",
+        "sleep_quality": false,
+        "physical_symptoms": ["headache", "muscle_ache", "gastro"],
+        "mood": ["irritated", "stressed", "distracted"],
+        "input_text": "Feeling exhausted, with a headache, muscle ache, and upset stomach. Definitely not fit to drive.",
+        "reaction_time_success_rate": 60,
+        "reaction_time": 450,
+        "suggestion": "do_not_drive"
     },
-    "daily_energy_level": "tired",
-    "sleep_quality": false,
-    "physical_symptoms": ["headache"],
-    "input_text": "Woke up with a headache, feeling a bit groggy.",
-    "reaction_time_success_rate": 70,
-    "reaction_time": 380,
-    "suggestion": "be_careful"
-  },
-  {
-    "timestamp": "2024-03-05T17:15:00Z",
-    "hours_slept": 7,
-    "last_shift": {
-      "start_timestamp": "2024-03-04T09:30:00Z",
-      "end_timestamp": "2024-03-04T18:30:00Z"
+    {
+        "timestamp": "2024-04-04T06:30:00Z",
+        "hours_slept": 3,
+        "last_shift": {
+            "start_timestamp": "2024-04-03T15:00:00Z",
+            "end_timestamp": "2024-04-03T23:00:00Z"
+        },
+        "daily_energy_level": "exhausted",
+        "sleep_quality": false,
+        "physical_symptoms": ["none"],
+        "mood": ["mood swings", "not in control", "sad"],
+        "input_text": "Extremely exhausted due to lack of sleep. Not safe to drive.",
+        "reaction_time_success_rate": 55,
+        "reaction_time": 500,
+        "suggestion": "do_not_drive"
     },
-    "daily_energy_level": "energetic",
-    "sleep_quality": true,
-    "physical_symptoms": ["none"],
-    "input_text": "Feeling great after a good night's sleep. Ready to drive!",
-    "reaction_time_success_rate": 92,
-    "reaction_time": 240,
-    "suggestion": "good_to_go"
-  },
-  {
-    "timestamp": "2024-03-08T08:45:00Z",
-    "hours_slept": 6,
-    "last_shift": {
-      "start_timestamp": "2024-03-07T12:00:00Z",
-      "end_timestamp": "2024-03-07T20:00:00Z"
-    },
-    "daily_energy_level": "ok",
-    "sleep_quality": false,
-    "physical_symptoms": ["none"],
-    "input_text": "Feeling alright but could use a bit more sleep. Have an early meeting.",
-    "reaction_time_success_rate": 88,
-    "reaction_time": 290,
-    "suggestion": "be_careful"
-  },
-  {
-    "timestamp": "2024-03-11T21:30:00Z",
-    "hours_slept": 8,
-    "last_shift": {
-      "start_timestamp": "2024-03-10T07:00:00Z",
-      "end_timestamp": "2024-03-10T16:00:00Z"
-    },
-    "daily_energy_level": "fully_energized",
-    "sleep_quality": true,
-    "physical_symptoms": ["none"],
-    "input_text": "Had a great night's sleep, feeling fantastic!",
-    "reaction_time_success_rate": 96,
-    "reaction_time": 220,
-    "suggestion": "good_to_go"
-  },
-  {
-    "timestamp": "2024-03-14T12:00:00Z",
-    "hours_slept": 5,
-    "last_shift": {
-      "start_timestamp": "2024-03-13T09:30:00Z",
-      "end_timestamp": "2024-03-13T18:30:00Z"
-    },
-    "daily_energy_level": "tired",
-    "sleep_quality": false,
-    "physical_symptoms": ["gastro", "muscle_ache"],
-    "input_text": "Feeling tired, a bit sore, and a bit queasy. Need to drive to a family event.",
-    "reaction_time_success_rate": 78,
-    "reaction_time": 360,
-    "suggestion": "be_careful"
-  },
-  {
-    "timestamp": "2024-03-17T06:30:00Z",
-    "hours_slept": 7,
-    "last_shift": {
-      "start_timestamp": "2024-03-16T15:00:00Z",
-      "end_timestamp": "2024-03-16T23:00:00Z"
-    },
-    "daily_energy_level": "energetic",
-    "sleep_quality": true,
-    "physical_symptoms": ["none"],
-    "input_text": "Feeling energetic and ready for a morning drive!",
-    "reaction_time_success_rate": 94,
-    "reaction_time": 230,
-    "suggestion": "good_to_go"
-  },
-  {
-    "timestamp": "2024-03-20T16:45:00Z",
-    "hours_slept": 8,
-    "last_shift": {
-      "start_timestamp": "2024-03-19T10:00:00Z",
-      "end_timestamp": "2024-03-19T18:00:00Z"
-    },
-    "daily_energy_level": "ok",
-    "sleep_quality": false,
-    "physical_symptoms": ["none"],
-    "input_text": "Feeling alright but a bit tired. Need to pick up groceries.",
-    "reaction_time_success_rate": 85,
-    "reaction_time": 310,
-    "suggestion": "be_careful"
-  },
-  {
-    "timestamp": "2024-03-23T21:00:00Z",
-    "hours_slept": 6,
-    "last_shift": {
-      "start_timestamp": "2024-03-22T08:00:00Z",
-      "end_timestamp": "2024-03-22T17:00:00Z"
-    },
-    "daily_energy_level": "fully_energized",
-    "sleep_quality": true,
-    "physical_symptoms": ["none"],
-    "input_text": "Had a great night's sleep, feeling refreshed!",
-    "reaction_time_success_rate": 98,
-    "reaction_time": 200,
-    "suggestion": "good_to_go"
-  },
-  {
-    "timestamp": "2024-03-26T11:30:00Z",
-    "hours_slept": 5,
-    "last_shift": {
-      "start_timestamp": "2024-03-25T13:00:00Z",
-      "end_timestamp": "2024-03-25T21:00:00Z"
-    },
-    "daily_energy_level": "tired",
-    "sleep_quality": false,
-    "physical_symptoms": ["headache"],
-    "input_text": "Woke up with a headache and feeling a bit groggy.",
-    "reaction_time_success_rate": 70,
-    "reaction_time": 380,
-    "suggestion": "be_careful"
-  },
-  {
-    "timestamp": "2024-03-29T17:15:00Z",
-    "hours_slept": 7,
-    "last_shift": {
-      "start_timestamp": "2024-03-28T09:30:00Z",
-      "end_timestamp": "2024-03-28T18:30:00Z"
-    },
-    "daily_energy_level": "energetic",
-    "sleep_quality": true,
-    "physical_symptoms": ["none"],
-    "input_text": "Feeling great after a good night's sleep. Ready to drive!",
-    "reaction_time_success_rate": 92,
-    "reaction_time": 240,
-    "suggestion": "good_to_go"
-  },
-  {
-    "timestamp": "2024-04-01T08:45:00Z",
-    "hours_slept": 6,
-    "last_shift": {
-      "start_timestamp": "2024-03-31T12:00:00Z",
-      "end_timestamp": "2024-03-31T20:00:00Z"
-    },
-    "daily_energy_level": "ok",
-    "sleep_quality": false,
-    "physical_symptoms": ["none"],
-    "input_text": "Feeling alright but could use a bit more sleep. Have an early meeting.",
-    "reaction_time_success_rate": 88,
-    "reaction_time": 290,
-    "suggestion": "be_careful"
-  },
-  {
-    "timestamp": "2024-04-04T21:30:00Z",
-    "hours_slept": 8,
-    "last_shift": {
-      "start_timestamp": "2024-04-03T07:00:00Z",
-      "end_timestamp": "2024-04-03T16:00:00Z"
-    },
-    "daily_energy_level": "fully_energized",
-    "sleep_quality": true,
-    "physical_symptoms": ["none"],
-    "input_text": "Had a great night's sleep, feeling fantastic!",
-    "reaction_time_success_rate": 97,
-    "reaction_time": 210,
-    "suggestion": "good_to_go"
-
     {
         "timestamp": "2024-04-07T12:00:00Z",
         "hours_slept": 4,
@@ -306,42 +153,42 @@
         "daily_energy_level": "exhausted",
         "sleep_quality": false,
         "physical_symptoms": ["headache", "muscle_ache", "gastro"],
+        "mood": ["happy", "excited", "motivated"],
         "input_text": "Feeling exhausted, with a headache, muscle ache, and upset stomach. Definitely not fit to drive.",
         "reaction_time_success_rate": 60,
         "reaction_time": 450,
         "suggestion": "do_not_drive"
-    },    
-    {
-        "timestamp": "2024-04-10T06:30:00Z",
-        "hours_slept": 3,
-        "last_shift": {
-            "start_timestamp": "2024-04-09T15:00:00Z",
-            "end_timestamp": "2024-04-09T23:00:00Z"
-        },
-        "daily_energy_level": "exhausted",
-        "sleep_quality": false,
-        "physical_symptoms": ["none"],
-        "input_text": "Extremely exhausted due to lack of sleep. Not safe to drive.",
-        "reaction_time_success_rate": 55,
-        "reaction_time": 500,
-        "suggestion": "do_not_drive"
     },
-    
     {
-        "timestamp": "2024-04-13T18:45:00Z",
+        "timestamp": "2024-02-21T06:00:00Z",
         "hours_slept": 6,
         "last_shift": {
-            "start_timestamp": "2024-04-12T10:00:00Z",
-            "end_timestamp": "2024-04-12T19:00:00Z"
+            "start_timestamp": "2024-02-20T15:00:00Z",
+            "end_timestamp": "2024-02-20T23:00:00Z"
+        },
+        "daily_energy_level": "tired",
+        "sleep_quality": true,
+        "physical_symptoms": ["none"],
+        "input_text": "Feeling tired but had a good night's sleep. Ready to drive.",
+        "reaction_time_success_rate": 90,
+        "reaction_time": 280,
+        "suggestion": "be_careful"
+    },
+    {
+        "timestamp": "2024-02-18T12:15:00Z",
+        "hours_slept": 5,
+        "last_shift": {
+            "start_timestamp": "2024-02-17T09:30:00Z",
+            "end_timestamp": "2024-02-17T18:30:00Z"
         },
         "daily_energy_level": "ok",
         "sleep_quality": false,
-        "physical_symptoms": ["none"],
-        "input_text": "Feeling okay, but just had a few drinks. Should not drive.",
-        "reaction_time_success_rate": 80,
-        "reaction_time": 320,
-        "suggestion": "do_not_drive"
+        "physical_symptoms": ["gastro"],
+        "input_text": "Feeling alright, but a bit queasy after lunch.",
+        "reaction_time_success_rate": 85,
+        "reaction_time": 300,
+        "suggestion": "be_careful"
     }
     
-  }]
- 
+    
+]
