@@ -1,0 +1,55 @@
+from datetime import datetime
+
+def format_data_point(data_point):
+    # Parse timestamps to datetime objects
+    timestamp = datetime.strptime(data_point["timestamp"], '%Y-%m-%dT%H:%M:%SZ')
+    start_timestamp = datetime.strptime(data_point["last_shift"]["start_timestamp"], '%Y-%m-%dT%H:%M:%SZ')
+    end_timestamp = datetime.strptime(data_point["last_shift"]["end_timestamp"], '%Y-%m-%dT%H:%M:%SZ')
+
+    # Format timestamps to desired string format
+    timestamp_str = timestamp.strftime('%B %d, %Y, at %I:%M %p')
+    start_timestamp_str = start_timestamp.strftime('%B %d, %Y at %I:%M %p')
+    end_timestamp_str = end_timestamp.strftime('%B %d, %Y at %I:%M %p')
+
+    # Format mood and physical symptoms
+    mood_str = ", ".join(data_point["mood"])
+    symptoms_str = ", ".join(data_point["physical_symptoms"])
+
+    # Construct the formatted string
+    formatted_string = (
+        f"On {timestamp_str}, the user had slept {data_point['hours_slept']} hours the night before "
+        f"and their last shift was from {start_timestamp_str} to {end_timestamp_str}. "
+        f'They feel {data_point["daily_energy_level"]} and slept {"well" if data_point["sleep_quality"] else "poorly"} last night. '
+        f'They are experiencing {("no" if not symptoms_str else symptoms_str)} physical symptoms. '
+        f'They said: "{data_point["input_text"]}". '
+        f'They got a {data_point["game_success_rate"]}% on a test for attention span, and they are at a '
+        f'{data_point["suggestion"].replace("_", " ")} level of alertness.'
+    )
+
+    return formatted_string
+
+#data_point = {
+#    "timestamp": "2024-03-11T21:30:00Z",
+#    "hours_slept": 8,
+#    "last_shift": {
+#        "start_timestamp": "2024-03-10T07:00:00Z",
+#        "end_timestamp": "2024-03-10T16:00:00Z"
+#    },
+#    "daily_energy_level": "fully_energized",
+#    "sleep_quality": True,
+#    "physical_symptoms": ["none"],
+#    "mood": ["happy", "grateful", "motivated"],
+#    "input_text": "Had a great night's sleep, feeling fantastic!",
+#    "game_success_rate": 96,
+#    "suggestion": "good_to_go"
+#}
+
+#formatted_string = format_data_point(data_point)
+#print(formatted_string)
+
+#On March 11, 2024, at 09:30 PM, the user had slept 8 hours the night
+ #before and their last shift was from March 10, 2024 at 07:00 AM to
+ # March 10, 2024 at 04:00 PM. They feel fully_energized and slept well
+ #last night. They are experiencing none physical symptoms. They said:
+#"Had a great night's sleep, feeling fantastic!". They got a 96% on
+ #a test for attention span, and they are at a good to go level of alertness.
